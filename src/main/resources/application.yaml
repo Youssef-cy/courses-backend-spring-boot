@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: course
+
+  datasource:
+    url: jdbc:oracle:thin:@//localhost:1521/orcl
+    username: C##WEB_USER
+    password: password123
+    driver-class-name: oracle.jdbc.OracleDriver
